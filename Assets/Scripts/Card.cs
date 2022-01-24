@@ -19,10 +19,10 @@ public class MonsterCard: Card
     public int healthPoint;
     public int healthPointMax;
 
-    public MonsterCard(int _id,string _cardName,int _attack,int _healthPoint, int _healthPointMax):base(_id,_cardName)
+    public MonsterCard(int _id,string _cardName,int _attack,int _healthPointMax):base(_id,_cardName)
     {
         this.attack = _attack;
-        this.healthPoint = _healthPoint;
+        this.healthPoint = _healthPointMax;
         this.healthPointMax = _healthPointMax;
 
     }
